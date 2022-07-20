@@ -1,0 +1,31 @@
+{
+  "Records": [
+    {
+      "EventVersion": "1.0",
+      "EventSubscriptionArn": "arn:aws:sns:us-east-2:123456789012:sns-lambda:21be56ed-a058-49f5-8c98-aedd2564c486",
+      "EventSource": "aws:sns",
+      "Sns": {
+        "SignatureVersion": "1",
+        "Timestamp": "2019-01-02T12:45:07.000Z",
+        "Signature": "tcc6faL2yUC6dgZdmrwh1Y4cGa/ebXEkAi6RibDsvpi+tE/1+82j...65r==",
+        "SigningCertUrl": "https://sns.us-east-2.amazonaws.com/SimpleNotificationService-ac565b8b1a6c5d002d285f9598aa1d9b.pem",
+        "MessageId": "95df01b4-ee98-5cb9-9903-4c221d41eb5e",
+        "Message": "{\"uuid\":\"77e0f57b-619b-4d6d-b735-ee5cba8de07f\",\"origins\":[\"https://www.gfujii.com\",\"https://ginza-laserclinic.jp\",\"https://ginza-calla.jp\",\"https://www.noel-clinic.com\",\"https://xn--u9j8grdp48kc64a3pax71c7sw.com\",\"https://mizunomori-shinjuku.com\",\"https://www.ginza-tm-clinic.com\",\"https://beautyskinclinic.jp\",\"https://woman.mynavi.jp\",\"https://reginaclinic.jp\",\"https://www.dr-masaki.com\",\"https://xn--pckua2a7gp15o89zb.com\",\"https://www.mens-rize.com\",\"https://datsumo-hikaku.jp\",\"https://emma-ginza.jp\",\"https://s8000.works\",\"https://www.nanakuru.com\",\"https://reprofile.jp\",\"https://www.ito-medical-clinic.com\",\"https://www.koi-hada.jp\"]}",
+        "MessageAttributes": {
+          "Test": {
+            "Type": "String",
+            "Value": "TestString"
+          },
+          "TestBinary": {
+            "Type": "Binary",
+            "Value": "TestBinary"
+          }
+        },
+        "Type": "Notification",
+        "UnsubscribeUrl": "https://sns.us-east-2.amazonaws.com/?Action=Unsubscribe&amp;SubscriptionArn=arn:aws:sns:us-east-2:123456789012:test-lambda:21be56ed-a058-49f5-8c98-aedd2564c486",
+        "TopicArn":"arn:aws:sns:us-east-2:123456789012:sns-lambda",
+        "Subject": "TestInvoke"
+      }
+    }
+  ]
+}

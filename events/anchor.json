@@ -1,0 +1,31 @@
+{
+  "Records": [
+    {
+      "EventVersion": "1.0",
+      "EventSubscriptionArn": "arn:aws:sns:us-east-2:123456789012:sns-lambda:21be56ed-a058-49f5-8c98-aedd2564c486",
+      "EventSource": "aws:sns",
+      "Sns": {
+        "SignatureVersion": "1",
+        "Timestamp": "2019-01-02T12:45:07.000Z",
+        "Signature": "tcc6faL2yUC6dgZdmrwh1Y4cGa/ebXEkAi6RibDsvpi+tE/1+82j...65r==",
+        "SigningCertUrl": "https://sns.us-east-2.amazonaws.com/SimpleNotificationService-ac565b8b1a6c5d002d285f9598aa1d9b.pem",
+        "MessageId": "95df01b4-ee98-5cb9-9903-4c221d41eb5e",
+        "Message": "{\"uuid\":\"77e0f57b-619b-4d6d-b735-ee5cba8de07f\",\"searchId\":2,\"snapshotId\":3,\"sites\":[{\"id\":2565,\"link\":\"https://www.koi-hada.jp/salon/tokyo/s_ginza/\"},{\"id\":2551,\"link\":\"https://woman.mynavi.jp/article/190924-7/\"},{\"id\":2552,\"link\":\"https://beauty.hotpepper.jp/genre/kgkw045/stc0010040/\"},{\"id\":2553,\"link\":\"https://medicaldoc.jp/recommend/ginza-st-medical-hair-removal/\"},{\"id\":2554,\"link\":\"https://beauty.hotpepper.jp/kr/slnH000466577/\"},{\"id\":2555,\"link\":\"https://magazine.voicenote.jp/9137/\"},{\"id\":2556,\"link\":\"https://arine.jp/articles/80893\"},{\"id\":2557,\"link\":\"https://lab.datumou.news-postseven.com/ginza-hair-removal/\"},{\"id\":2564,\"link\":\"https://ginza-calla.jp/tag/first-time/\"},{\"id\":2558,\"link\":\"https://bccl.jp/about/ginza/\"},{\"id\":2559,\"link\":\"https://www.travelbook.co.jp/topic/62625\"},{\"id\":2560,\"link\":\"https://www.cchan.tv/mag/48134cac20a1430797a2c6c7b669d4eb/\"},{\"id\":2561,\"link\":\"https://sironeko-datumou.com/ginza-medical-hair-removal/\"},{\"id\":2562,\"link\":\"https://musical-tea.com/bell/iryodatsumo-ginza.html\"},{\"id\":2563,\"link\":\"https://cuebic.co.jp/your_select/epilation/ep001\"},{\"id\":2566,\"link\":\"https://report.clinic/datsumo/pref_12/area_92\"},{\"id\":2567,\"link\":\"https://se-ec.co.jp/find_best/datsumou/column/choose/salon-unlimited-plan-recommend-ranking/\"},{\"id\":2568,\"link\":\"https://www.rizeclinic.com/clinic/ginza/\"},{\"id\":2569,\"link\":\"https://4men.jp/datsumou/ginza/\"},{\"id\":2570,\"link\":\"https://my-best.com/6\"},{\"id\":2571,\"link\":\"https://tg-grace.jp/\"},{\"id\":2572,\"link\":\"https://s8000.works/archives/5559\"},{\"id\":2573,\"link\":\"https://kashi-kari.jp/lab/mens-hair-removal-ginza/\"},{\"id\":2574,\"link\":\"https://prime-ginza.jp/\"},{\"id\":2575,\"link\":\"http://www.kanka-ginza.com/\"},{\"id\":2576,\"link\":\"https://www.ginzafine.com/\"},{\"id\":2577,\"link\":\"https://datsumo.ameba.jp/tokyo/ginza/\"},{\"id\":2578,\"link\":\"https://aimplace.co.jp/p/bea/bea01/\"},{\"id\":2579,\"link\":\"https://arvo.showcase-tv.com/143995/\"},{\"id\":2580,\"link\":\"https://eminal-clinic.jp/clinic/c_ginza/\"},{\"id\":2581,\"link\":\"https://ginza-laserclinic.jp/\"},{\"id\":2582,\"link\":\"https://tsuruo.com/articles/selection/ginza_s\"},{\"id\":2583,\"link\":\"https://ranking.goo.ne.jp/select/12569\"},{\"id\":2584,\"link\":\"https://tsubaki-grp.com/lp/depi/camp/\"},{\"id\":2585,\"link\":\"https://epilino.jp/area/region/202\"},{\"id\":2586,\"link\":\"https://alex-media.co.jp/epistation/datsumou/zenshin-datsumou/zenshin-museigen.html\"},{\"id\":2587,\"link\":\"https://www.gfujii.com/\"},{\"id\":2588,\"link\":\"https://aclinic.jp/\"},{\"id\":2589,\"link\":\"https://ekichica.com/media/beauty/ginza-calla/\"},{\"id\":2590,\"link\":\"https://www.ozmall.co.jp/datsumou/article/26129/\"}],\"data\":{\"searchWords\":[\"銀座カラー\",\"銀カラ\"],\"urlWords\":[\"ginzaCalla\",\"ginza-calla\",\"ginza_calla\"],\"blacklists\":[\"https://getpocket.com\",\"https://www.addtoany.com\",\"https://twitter.com\",\"https://plusone.google.com\",\"https://b.hatena.ne.jp\",\"https://amzn.to\",\"https://www.instagram.com\",\"https://beauty.hotpepper.jp\"],\"whitelists\":[\"https://px.a8.net\",\"https://p-af.net\",\"https://t.afi-b.com\",\"https://t.felmat.net\",\"https://track.affiliate-b.com\",\"https://s5.aspservice.jp\",\"https://www.af-mark.jp\"],\"positiveWords\":[\"詳しく\",\"公式\",\"予約\",\"カウンセリンク\",\"こちら\",\"申し込\",\"無料\",\"詳細\"]}}",
+        "MessageAttributes": {
+          "Test": {
+            "Type": "String",
+            "Value": "TestString"
+          },
+          "TestBinary": {
+            "Type": "Binary",
+            "Value": "TestBinary"
+          }
+        },
+        "Type": "Notification",
+        "UnsubscribeUrl": "https://sns.us-east-2.amazonaws.com/?Action=Unsubscribe&amp;SubscriptionArn=arn:aws:sns:us-east-2:123456789012:test-lambda:21be56ed-a058-49f5-8c98-aedd2564c486",
+        "TopicArn":"arn:aws:sns:us-east-2:123456789012:sns-lambda",
+        "Subject": "TestInvoke"
+      }
+    }
+  ]
+}
